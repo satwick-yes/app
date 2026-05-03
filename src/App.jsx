@@ -80,7 +80,7 @@ function App() {
             <h3>Mobile Edition</h3>
             <p>Take the AI anywhere. Available for Android and iOS.</p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <a href="#" className="btn-secondary" onClick={(e) => { e.preventDefault(); alert("Downloading Android APK..."); }}>
+              <a href="/app-debug.apk" download className="btn-secondary">
                 <Download size={20} /> Download APK (Android)
               </a>
               <a href="#" className="btn-secondary" onClick={(e) => { e.preventDefault(); alert("Opening App Store link..."); }}>

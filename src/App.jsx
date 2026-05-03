@@ -67,7 +67,7 @@ function App() {
             </div>
             <h3>Desktop Edition</h3>
             <p>Full power, standalone native Windows application.</p>
-            <a href="#" className="btn-primary" onClick={(e) => { e.preventDefault(); alert("Downloading Windows Installer..."); }}>
+            <a href="/image-to-word-desktop.zip" download className="btn-primary">
               <Download size={20} /> Download for Windows
             </a>
           </div>
